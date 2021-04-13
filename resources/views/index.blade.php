@@ -88,7 +88,7 @@
                 @foreach($gallery as $media)
                     <li class="relative mb-4">
                         <div class="block w-full aspect-w-10 aspect-h-7 rounded-lg overflow-hidden">
-                            <img src="{{ $media->image_url() }}" alt="image">
+                            <img class="object-cover" src="{{ $media->image_url() }}" alt="image">
                         </div>
                         <div class="mt-2 flex justify-between items-start" x-data="{ link: '{{ $media->image_url() }}' }">
                             <div>
