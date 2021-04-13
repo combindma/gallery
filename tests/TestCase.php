@@ -2,9 +2,9 @@
 
 namespace Combindma\Gallery\Tests;
 
+use Combindma\Gallery\GalleryServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Combindma\Gallery\GalleryServiceProvider;
 
 class TestCase extends Orchestra
 {

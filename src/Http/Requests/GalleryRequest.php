@@ -2,7 +2,6 @@
 
 namespace Combindma\Gallery\Http\Requests;
 
-
 use Illuminate\Foundation\Http\FormRequest;
 
 class GalleryRequest extends FormRequest
