@@ -92,7 +92,7 @@
                         </div>
                         <div class="mt-2 flex justify-between items-start" x-data="{ link: '{{ $media->image_url() }}' }">
                             <div>
-                                <p class="block text-sm font-medium text-gray-900 truncate pointer-events-none">{{ $media->file_name }}</p>
+                                <p class="block text-sm font-medium text-gray-900 pointer-events-none">{{ $media->file_name }}</p>
                                 <p class="block text-sm font-medium text-gray-500 pointer-events-none">{{ $media->file_size }}</p>
                             </div>
                             <button type="button" @click="$clipboard(link)" class="text-gray-400 hover:text-gray-500">
