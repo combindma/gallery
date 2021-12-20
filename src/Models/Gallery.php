@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Combindma\Gallery\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;

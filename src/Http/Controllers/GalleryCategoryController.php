@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Combindma\Gallery\Http\Controllers;
 
 use Combindma\Gallery\Http\Requests\GalleryRequest;
